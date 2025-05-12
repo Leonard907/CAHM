@@ -1,0 +1,9 @@
+Below are several summaries of different parts of a document with each summary having sentences with labels at the end ([1], [2], ...) and separated by line breaks:
+
+---
+{}
+---
+
+Merge the given summaries into a short summary. There should be no explicit mention of words like "document" and "summary" in the summary. The summary must be fully understandable without any other context (e.g., all entities must be referred to by name, not pronoun). After each summary sentence, you should assign a label to that sentence showing which paragraph in the document it corresponds to. Specifically, follow the format below:
+
+<sentence 1>. [n] <sentence 2>. [m] ...

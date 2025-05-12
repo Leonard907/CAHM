@@ -1,0 +1,21 @@
+Below is a summary of the context preceding some parts of a document:
+
+---
+{}
+---
+
+Below are several summaries of different parts of a document with each summary having sentences with labels at the end ([1], [2], ...) and separated by line breaks:
+
+---
+{}
+---
+
+Below are the supporting contexts of the previously shown summaries:
+
+---
+{}
+---
+
+Merge the preceding context and the given summaries into one single summary containing all key information and use the supporting contexts to make sure the merged summary contains no factual errors. The gist of the summary should be based solely on the given summaries, while the supporting contexts should be used for proofreading only. There should be no explicit mention of words like "document", "context" or "summary" in the summary. The summary must be fully understandable without any other context (e.g., all entities must be referred to by name, not pronoun). After each summary sentence, you should assign a label to that sentence showing which paragraph in the document it corresponds to. Specifically, follow the format below:
+
+<sentence 1>. [n] <sentence 2>. [m] ...

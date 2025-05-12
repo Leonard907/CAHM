@@ -1,0 +1,13 @@
+Below is a summary of the context preceding some parts of a document:
+
+---
+{}
+---
+
+Below are several summaries of different parts of a document:
+
+---
+{}
+---
+
+Merge the preceding context and the given summaries into one single summary containing all key information. There should be no explicit mention of words like "document", "context" or "summary" in the summary. The summary must be fully understandable without any other context (e.g., all entities must be referred to by name, not pronoun). 

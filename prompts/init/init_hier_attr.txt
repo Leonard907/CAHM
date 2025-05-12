@@ -1,0 +1,9 @@
+Below is a document with each paragraph assigned to a label at the end ([n]) and separated by line breaks:
+
+---
+{}
+---
+
+Write a summary containing all key information. There should be no explicit mention of words like "document" or "summary" in the summary. The summary must be fully understandable without any other context (e.g., all entities must be referred to by name, not pronoun). After each summary sentence, you should assign a label to that sentence showing which paragraph in the document it corresponds to. Specifically, follow the format below:
+
+<sentence 1>. [n] <sentence 2>. [m] ...

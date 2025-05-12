@@ -1,0 +1,7 @@
+Below are several summaries of different parts of a document:
+
+---
+{}
+---
+
+Merge the given summaries into one short summary. There should be no explicit mention of words like "document" and "summary" in the summary. The summary must be fully understandable without any other context (e.g., all entities must be referred to by name, not pronoun). The summary must be fully understandable without any other context (e.g., all entities must be referred to by name, not pronoun).

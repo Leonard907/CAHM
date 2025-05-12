@@ -1,0 +1,7 @@
+Below is a document:
+
+---
+{}
+---
+
+Write a summary containing all key information. There should be no explicit mention of words like "document" or "summary" in the summary. The summary must be fully understandable without any other context (e.g., all entities must be referred to by name, not pronoun).

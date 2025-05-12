@@ -1,0 +1,13 @@
+Below are several summaries of different parts of a document:
+
+---
+{}
+---
+
+Below are the supporting contexts of the previously shown summaries:
+
+---
+{}
+---
+
+Merge the given summaries into one single summary containing all key information and use the supporting contexts to make sure the merged summary contains no factual errors. The gist of the summary should be based solely on the given summaries, while the supporting contexts should be used for proofreading only. There should be no explicit mention of words like "document", "context" or "summary" in the summary. The summary must be fully understandable without any other context (e.g., all entities must be referred to by name, not pronoun).
