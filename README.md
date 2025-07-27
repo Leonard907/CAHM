@@ -4,6 +4,7 @@ This repo contains the code for the paper [Context-aware hierarchical merging fo
 ## Requirements
 ```sh
 bash install.sh
+wget https://huggingface.co/yzha/AlignScore/resolve/main/AlignScore-large.ckpt
 ```
 
 ## Baselines
@@ -35,13 +36,22 @@ HF datasets are given in `configs/zs_config.py`. We have made the supersummary d
 
 ## Citation
 ```
-@misc{ou2025contextawarehierarchicalmerginglong,
-      title={Context-Aware Hierarchical Merging for Long Document Summarization}, 
-      author={Litu Ou and Mirella Lapata},
-      year={2025},
-      eprint={2502.00977},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2502.00977}, 
+@inproceedings{ou-lapata-2025-context,
+    title = "Context-Aware Hierarchical Merging for Long Document Summarization",
+    author = "Ou, Litu  and
+      Lapata, Mirella",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2025",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-acl.289/",
+    pages = "5534--5561",
+    ISBN = "979-8-89176-256-5",
+    abstract = "Hierarchical Merging is a technique commonly used to summarize very long texts ({\ensuremath{>}}100K tokens) by breaking down the input into smaller sections, summarizing those sections individually, and then merging or combining those summaries into a final coherent summary. Although it helps address the limitations of large language models (LLMs) with fixed input length constraints, the recursive merging process can amplify LLM hallucinations, increasing the risk of factual inaccuracies. In this paper, we seek to mitigate hallucinations by enriching hierarchical merging with context from the source document. Specifically, we propose different approaches to contextual augmentation ranging from *replacing* intermediate summaries with relevant input context, to *refining* them while using the context as supporting evidence, and *aligning* them implicitly (via citations) to the input. Experimental results on datasets representing legal and narrative domains show that contextual augmentation consistently outperforms zero-shot and hierarchical merging baselines for the Llama 3.1 model family. Our analysis further reveals that refinement methods tend to perform best when paired with extractive summarization for identifying relevant input."
 }
 ```

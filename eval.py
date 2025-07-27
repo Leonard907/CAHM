@@ -72,7 +72,7 @@ def eval_summac(dataset, summaries, max_len, tokenizer, no_ref_truncate):
     return total_score / len(dataset)
 
 def eval_alignscore(dataset, summaries, max_len, tokenizer, no_ref_truncate):
-    scorer = AlignScore(model='roberta-large', batch_size=32, device='cuda:0', ckpt_path='../AlignScore-large.ckpt', evaluation_mode='nli_sp', verbose=False)
+    scorer = AlignScore(model='roberta-large', batch_size=32, device='cuda:0', ckpt_path='AlignScore-large.ckpt', evaluation_mode='nli_sp', verbose=False)
     total_score = 0
     for i in tqdm(range(len(dataset))):
         input_text = parse_non_ascii(dataset[i]['input'])
